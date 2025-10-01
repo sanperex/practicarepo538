@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal de Enseñanza</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/1322/1322102.png"
+          alt="logo"
+        />
+      </div>
+      <div class="titulo">PORTAL DE ENSEÑANZA EN DESARROLLO WEB</div>
+    </header>
+
+    <nav aria-label="Menú principal">
+  <ul class="main-nav">
+    <li><a href="#">Inscripciones</a></li>
+    <li><a href="#">Programas</a></li>
+    <li><a href="#">Cursos cortos</a></li>
+    <li><a href="#">Eventos</a></li>
+    <li><a href="#">Contáctenos</a></li>
+  </ul>
+</nav>
+
+    <main class="contenedor">
+      <div class="colizquierda">
+        <p>
+          Estudia un Diplomado y fortalece todo tu potencial en desarrollo de
+          Software.
+        </p>
+        <a href="#" class="boton">Descubre más</a>
+        
+      </div>
+
+      <div class="colderecha">
+        <h2>Cursos destacados</h2>
+        <div class="cursos">
+          <div class="curso">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Google-flutter-logo.svg/2560px-Google-flutter-logo.svg.png"
+              alt="Flutter"
+            />
+          </div>
+          <div class="curso">
+            <img
+              src="data:image/png;base64,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"
+              alt="Android Studio"
+            />
+          </div>
+          <div class="curso">
+            <img
+              src="data:image/png;base64,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"
+              alt="Ionic"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="profesores">
+      <div class="perfil">
+        <p><b>PROFESOR</b></p>
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/004/903/346/non_2x/cute-couple-cartoon-of-teachers-vector.jpg"
+          alt="Profesor"
+        />
+      </div>
+      <div class="texto">
+        <p>COLOQUE AQUÍ EL PERFIL DE LOS PROFESORES</p>
+      </div>
+      <div class="texto">
+        <p>COLOQUE AQUÍ LOS LOGROS DE LOS PROFESORES</p>
+      </div>
+    </section>
+
+    <section class="videos">
+      <h2>Videos explicativos de cada curso</h2>
+      <div class="cards">
+        <div class="card">
+          <iframe
+            width="200"
+            height="200"
+            src="https://www.youtube.com/embed/3nYLTiY5skU?si=5ZkQrJOmvJoZJxyY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <br /><br />
+          <p>
+            Curso HTML<br />Recibe mas informacion diligenciando formulario.
+          </p>
+        </div>
+        <div class="card">
+          <iframe
+            width="200"
+            height="200"
+            src="https://www.youtube.com/embed/TlJbu0BMLaY?si=paWAI1kfITKwDera"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <br /><br />
+          <p>Curso de css<br />Gratis con Certificación</p>
+        </div>
+        <div class="card">
+          <iframe
+            width="200"
+            height="200"
+            src="https://www.youtube.com/embed/Z34BF9PCfYg?si=d19L-XQGvOjoW9U3"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <br><br>
+          <p>
+            Introducción a la programación con JavaScript<br />Matrículese ahora
+            y reciba hasta un 35% de dto.*
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <h3>De interés</h3>
+        <ul>
+          <li>Sistema Soporte - PQRS</li>
+          <li>Blog</li>
+          <li>Modalidades</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Portales</h3>
+        <ul>
+          <li>Portal Educación Virtual</li>
+          <li>Portal Educación Presencial-Online</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contactos</h3>
+        <ul>
+          <li>Teléfono</li>
+          <li>Celular</li>
+          <li>Email</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
